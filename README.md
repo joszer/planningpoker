@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -16,3 +17,9 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+=======
+planningpoker
+=============
+
+Simple planning poker project using node.js and angular.js
+>>>>>>> 6e1c944cb1fcd6f22ce54d400f6a2f1b64f21795
