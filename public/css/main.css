@@ -1,0 +1,20 @@
+.wrapper {
+            padding: 2% 1% 0 1%;
+        }
+
+        #usercontainer {
+            overflow: auto;
+            height: 50vh;
+        }
+        .pokerCard {
+            border: 1px solid red;
+            height: 100px;            
+            width: 80px;
+        }
+        /*.bordered {
+            border: 1px solid red;
+        }
+        .colored {
+            background-color: red;
+            height: 70vh;
+        }*/

@@ -1,0 +1,25 @@
+link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+link(rel='stylesheet', href='/css/main.css')
+
+script(type='text/javascript', src='/bower_components/angular/angular.js')
+script(type='text/javascript', src='/app/app.js')
+
+head
+    title Planning poker
+
+body(ng-app='app')
+    .container-fluid
+        div(ng-controller='testController')
+            p {{ test }}
+            div.row
+                div.col-md-12
+                    h1 Planning poker online
+            div.row
+                div.col-md-2.bordered
+                    h4 Users
+                        div#usercontainer
+                            ul.list-group
+                                li.list-group-item(ng-repeat="user in users")
+                                    span {{ user.name }}
+                                    // tu będzie potrzebna duża kombinacja żeby zrobić z tego własną dyrektywę
+                                    span.pull-right {{ user.status }}
