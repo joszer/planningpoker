@@ -18,7 +18,7 @@ angular.module('app').controller('testController', function($scope, $resource) {
           status: 1
         },
         {
-          name: 'Kevin',
+          name: 'Kevin to test something',
           status: 1
         },
         {
