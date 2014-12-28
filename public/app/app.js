@@ -1,6 +1,8 @@
-angular.module('app', []);
+angular.module('app', ['ngResource']);
 
-angular.module('app').controller('testController', function($scope) {
+angular.module('app').controller('testController', function($scope, $resource) {
+    // przenieść fake'i do innego pliku pomimo tego, że nie korzystam z mongo
+    //$resource('/api/users').query();
     $scope.test = "working!";
     $scope.users = [
         {
